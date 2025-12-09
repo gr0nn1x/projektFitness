@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .grid--2-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* pri vetsi obrazovce jsou dva sloupce u karticek */

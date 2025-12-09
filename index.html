@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>beSTRONG Hradec Králové - Studentský projekt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="disclaimer">
+      <p>
+        Toto je studentský projekt, obsah je smyšlený.
+      </p>
+    </div>
+
+    <header class="site-header">
+      <div class="container flex justify-between items-center">
+        <a href="index.html" class="logo">beSTRONG</a>
+      </div>
+    </header>
+
+
+
+    
+    <main>
+      <section class="hero hero--bg-gym">
+        <div class="container text-center">
+          <h1 class="hero__title">Začni správně, začni teď</h1>
+          <p class="hero__subtitle">Zvol si coache a plán, a začni už dnes!</p>
+          <div class="flex gap-4 justify-center flex-wrap">
+            <a href="#treneri" class="btn btn--primary">Zvolte si trenéra</a>
+            <a href="wellness.html" class="btn btn--primary">Fitness Centrum</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="treneri" class="section">
+        <div class="container">
+          <h2 class="section-title text-center mb-7">Naši Trenéři</h2>
+          <div class="grid grid--2-cols gap-7">
+
+
+
+            <article class="card">
+              <img
+                src="./src/img/kuba.jpg"
+                alt="Jakub Guttl"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h3 class="card__title">Jakub Guttl</h3>
+                <p class="card__desc">
+                  Specializace: nováčci, fitness, kruhové tréninky
+                </p>
+                <div class="card__meta">
+                  <span class="text-green">8 Let zkušeností</span>
+                  <span>★★★★☆ (4,5)</span>
+                </div>
+                
+
+                
+                <a href="#kontakt">
+                <button class="btn btn--small btn--primary mt-3" >
+                  Kontakt
+                </button>
+              </a>
+
+              </div>
+            </article>
+
+
+
+            <article class="card" >
+              <img
+                src="src/img/tomas.png"
+                alt="Jan Holas"
+                class="card__image"
+              />
+              <div class="card__content" >
+                <h3 class="card__title">Tomáš Tesařík</h3>
+                <p class="card__desc">
+                  Specializace: silový trénink, nabírání svalů
+                </p>
+                <div class="card__meta">
+                  <span class="text-green">5 Let zkušeností</span>
+                  <span>★★★☆☆ (3)</span>
+                </div>
+                <a href="#kontakt">
+                <button class="btn btn--small btn--primary mt-3">
+                  Kontakt
+                </button></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="cenik" class="section bg-light">
+        <div class="container">
+          <h2 class="section-title text-center mb-7">Vyberte si plán</h2>
+          <div class="pricing-table">
+            <div class="pricing-table__header"></div>
+            <div class="pricing-table__header">BASIC</div>
+            <div class="pricing-table__header text-gold">STANDARD</div>
+            <div class="pricing-table__header text-blue">PREMIUM</div>
+            
+
+            <div class="pricing-table__label">Plán 📅</div>
+            <div class="pricing-table__cell dot dot--green"></div>
+            <div class="pricing-table__cell dot dot--green"></div>
+            <div class="pricing-table__cell dot dot--green"></div>
+
+            <div class="pricing-table__label">On-line konzultace 💻</div>
+            <div class="pricing-table__cell dot dot--green"></div>
+            <div class="pricing-table__cell dot dot--green"></div>
+            <div class="pricing-table__cell dot dot--green"></div>
+
+            <div class="pricing-table__label">Jídelníček 🍽️</div>
+            <div class="pricing-table__cell dot dot--red"></div>
+            <div class="pricing-table__cell dot dot--green"></div>
+            <div class="pricing-table__cell dot dot--green"></div>
+
+            <div class="pricing-table__label">Osobní tréninky 🏋️</div>
+            <div class="pricing-table__cell dot dot--red"></div>
+            <div class="pricing-table__cell dot dot--red"></div>
+            <div class="pricing-table__cell dot dot--green"></div>
+          </div>
+          <div class="text-center mt-3 text-muted">
+            Od 500 Kč / Od 700 Kč / Od 1500 Kč měsíčně
+          </div>
+        </div>
+      </section>
+
+      <section id="kontakt" class="section">
+        <div class="container max-w-600">
+          <form class="form-card">
+            <div class="form-group">
+              <label for="name" class="form-label">Vaše jméno</label>
+              <input type="text" id="name" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label for="phone" class="form-label">Telefonní číslo</label>
+              <input type="tel" id="phone" class="form-input" />
+            </div>
+            <div class="flex justify-between mt-3 mb-3">
+              <label><input type="checkbox" /> Zvol si trenéra</label>
+              <label><input type="checkbox" /> Zvol svůj plán</label>
+            </div>
+            <button type="submit" class="btn btn--primary w-full">
+              Odeslat
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container text-center">
+        <p>&copy; 2025 beSTRONG Hradec Králové. Všechna práva vyhrazena UHK.</p>
+        <p class="text-sm mt-1">
+          Kontakt: fitness@gmail.com 
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

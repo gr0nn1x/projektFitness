@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"  />
+    <title>Wellness - beSTRONG Hradec Králové</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="disclaimer">
+      <p>
+         Toto je studentský projekt, obsah je smyšlený.
+      </p>
+    </div>
+
+    <header class="site-header">
+      <div class="container flex justify-between items-center">
+        <a href="index.html" class="logo">beSTRONG</a>
+      </div>
+    </header>
+
+
+    <main>
+
+         <section class="hero hero--bg-building">
+        <div class="container text-center">
+          <h1 class="hero__title">Nejmodernější facilita v Hradci Králové</h1>
+          <p class="hero__subtitle">Fitko, regenerace a trenéři na jednom místě!</p>
+           <p class="hero__subtitle2">Hradecká 1249/6, 500 03 Hradec Králové</p>
+          <div class="flex gap-4 justify-center flex-wrap">
+
+            <a href="#wellness" class="btn btn--secondary">Wellness</a>
+
+            <a href="#mapa" class="btn btn--secondary">Lokace</a>
+
+            <a href="index.html" class="btn btn--secondary">Trenéři</a>
+
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="wellness"
+        class="section section--dark"
+        style="min-height: 80vh; display: flex; align-items: center"
+      >
+        <div class="container grid grid--2-cols items-center gap-7">
+          <div>
+            <h1 class="section-title text-white">Moderní Fitness</h1>
+            <p class="text-white mt-3 mb-3">
+              Nejlepší vybavení jak ve fitku, tak ve wellness.
+              Nabízíme špičkové vybavení pro vaši kondici i regeneraci.
+            </p>
+            <ul
+              class="list-unstyled text-white mt-3 mb-7"
+              style="line-height: 2"
+            >
+              <li>✓ Finská sauna</li>
+              <li>✓ Vířivka</li>
+              <li>✓ State-of-the-art equipment</li>
+              <li> Jednorázoví Vstup od 99kč!</li>
+              <li> Měsíční od 700kč!</li>
+              <li> Roční již od 4000kč</li>
+            </ul>
+        
+          </div>
+         
+             <div class="slider">
+            <div class="slide"><img src="./src/img/gym1.jpg"></div>
+            <div class="slide"><img src="./src/img/gym2.jpg"></div>
+            <div class="slide"><img src="./src/img/gym3.jpg"></div>
+            <div class="slide"><img src="./src/img/gym4.jpg"></div>
+        </div>
+          
+        </div>
+      </section>
+
+
+      <section id="mapa" class="section">
+         <div class="mapa-container">
+      <iframe style="border:none" src="https://mapy.com/s/kozepofake" width="600" height="600" ></iframe>
+    </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container text-center">
+        <p>&copy; 2025 beSTRONG Hradec Králové. Všechna práva vyhrazena UHK.</p>
+        <p class="text-sm mt-1">
+          Kontakt: fitness@gmail.com 
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

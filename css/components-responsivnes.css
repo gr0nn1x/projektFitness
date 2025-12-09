@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .nav-icon {
+    display: none;
+  }
+  .nav__list {
+    display: flex;
+    gap: var(--space-4);
+    position: static;
+    border: none;
+    flex-direction: row;
+  }
+}
