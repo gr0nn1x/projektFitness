@@ -1,1 +1,1 @@
-Project for my first semester of college, basic html and css with a lot of emphasis on syntax and correct writing, nothing special
+Project for my first semester of college, basic html and css with a lot of emphasis on syntax and correct writing, nothing special [Click here for redirect](https://gr0nn1x.github.io/projektFitness/).
